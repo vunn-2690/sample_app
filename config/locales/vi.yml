@@ -14,4 +14,22 @@ vi:
   intro_help2: "Hoc them ve Rails tai "
   rails_tutorial: "Ruby on Rails Tutorial"
   sign_up: "Dang ky ngay!"
-
+  create_my_account: "Dang ky !"
+  the_form_contains: "Form dang ky"
+  activerecord:
+    models:
+      user: User
+    attributes:
+      user:
+        name: "Ten :"
+        password: "Mat Khau :"
+        confirmation: "Xac nhan mat khau :"
+  users:
+    create:
+      success: "Chao mung den voi Sample App !"
+  shared:
+    error: "Loi !"
+    not_found: "Khong tim thay !"
+  errors:
+    zero: "Khong co loi !"
+    other: "%{count} Loi"
