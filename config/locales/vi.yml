@@ -14,6 +14,8 @@ vi:
   intro_help2: "Hoc them ve Rails tai "
   rails_tutorial: "Ruby on Rails Tutorial"
   sign_up: "Dang ky ngay!"
+  new_user: "Chua co tai khoan ?"
+  login: "Dang nhap"
   create_my_account: "Dang ky !"
   the_form_contains: "Form dang ky"
   activerecord:
@@ -27,9 +29,18 @@ vi:
   users:
     create:
       success: "Chao mung den voi Sample App !"
+    session:
+      user: "Nguoi dung"
+      account: "Tai Khoan"
+      profile: "Thong tin ca nhan"
+      settings: "Cai dat"
+      logout: "Dang Xuat"
+      new: "Tao Session"
+      destroy: "Huy Session"
   shared:
     error: "Loi !"
     not_found: "Khong tim thay !"
+    invalid_email_password_combination: "Sai email hoac mat khau !"
   errors:
     zero: "Khong co loi !"
     other: "%{count} Loi"

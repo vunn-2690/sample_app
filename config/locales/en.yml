@@ -45,6 +45,8 @@ en:
   intro_help2: "Learning Rails can find at "
   rails_tutorial: "Ruby on Rails Tutorial"
   sign_up: "Sign up now!"
+  new_user: "New User ?"
+  login: "Log In"
   create_my_account: "Create my acount !"
   the_form_contains: "The Form Contains"
   activerecord:
@@ -58,9 +60,18 @@ en:
   users:
     create:
       success: "Welcome to the Simple App !"
+    session:
+      user: "User"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
+      new: "Create new session"
+      destroy: "Destroy Session"
   shared:
     error: "Error !"
     not_found: "Not Found !"
+    invalid_email_password_combination: "Invalid Email or Password !"
   errors:
     zero: "No Errors !"
     other: "%{count} Errors"
