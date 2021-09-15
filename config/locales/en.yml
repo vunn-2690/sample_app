@@ -45,3 +45,22 @@ en:
   intro_help2: "Learning Rails can find at "
   rails_tutorial: "Ruby on Rails Tutorial"
   sign_up: "Sign up now!"
+  create_my_account: "Create my acount !"
+  the_form_contains: "The Form Contains"
+  activerecord:
+    models:
+      user: User
+    attributes:
+      user:
+        name: "Name :"
+        password_signup: "Password :"
+        confirmation: "Confirmation :"
+  users:
+    create:
+      success: "Welcome to the Simple App !"
+  shared:
+    error: "Error !"
+    not_found: "Not Found !"
+  errors:
+    zero: "No Errors !"
+    other: "%{count} Errors"
