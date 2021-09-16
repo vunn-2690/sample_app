@@ -37,6 +37,7 @@ vi:
       logout: "Dang Xuat"
       new: "Tao Session"
       destroy: "Huy Session"
+      remember_me: "Luu thong tin tren may tinh nay"
   shared:
     error: "Loi !"
     not_found: "Khong tim thay !"

@@ -68,6 +68,7 @@ en:
       logout: "Log out"
       new: "Create new session"
       destroy: "Destroy Session"
+      remember_me: "Remember me on this computer"
   shared:
     error: "Error !"
     not_found: "Not Found !"
