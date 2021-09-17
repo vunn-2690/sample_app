@@ -16,8 +16,13 @@ vi:
   sign_up: "Dang ky ngay!"
   new_user: "Chua co tai khoan ?"
   login: "Dang nhap"
+  edit: "Thay doi thong tin"
+  change: "Thay doi"
+  save_change: "Luu thay doi"
+  list_users: "Tat ca nguoi dung"
   create_my_account: "Dang ky !"
   the_form_contains: "Form dang ky"
+  confirm: "Ban chac chu ?"
   activerecord:
     models:
       user: User
@@ -29,6 +34,14 @@ vi:
   users:
     create:
       success: "Chao mung den voi Sample App !"
+    edit:
+      success: "Luu thanh cong !"
+      fail: "Luu that bai !"
+    destroy:
+      delete: "Xoa nguoi dung"
+      success: "Xoa thanh cong"
+      fail: "Xoa khong thanh cong"
+      admin_fail: "Khong the xoa admin"
     session:
       user: "Nguoi dung"
       account: "Tai Khoan"
@@ -41,7 +54,9 @@ vi:
   shared:
     error: "Loi !"
     not_found: "Khong tim thay !"
+    not_found_user: "Khong tim thay nguoi dung"
     invalid_email_password_combination: "Sai email hoac mat khau !"
+    please_login: "Vui long dang nhap"
   errors:
     zero: "Khong co loi !"
     other: "%{count} Loi"

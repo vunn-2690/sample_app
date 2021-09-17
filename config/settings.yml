@@ -1,3 +1,8 @@
 length:
   max_255: 255
   min_10: 10
+  min_6: 6
+size:
+  default_80: 80
+  size_50: 50
+per_page_10: 10
