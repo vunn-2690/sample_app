@@ -47,8 +47,13 @@ en:
   sign_up: "Sign up now!"
   new_user: "New User ?"
   login: "Log In"
+  edit: "Edit User"
+  change: "Change"
+  save_change: "Save Change"
+  list_users: "All Users"
   create_my_account: "Create my acount !"
   the_form_contains: "The Form Contains"
+  confirm: "Are you sure ?"
   activerecord:
     models:
       user: User
@@ -60,6 +65,14 @@ en:
   users:
     create:
       success: "Welcome to the Simple App !"
+    edit:
+      success: "Saved Successfully !"
+      fail: "Can't Saved"
+    destroy:
+      delete: "Delete User"
+      success: "Deleted User Successfully"
+      fail: "Can't deleted User. Please try again."
+      admin_fail: "Can't deleted Admin"
     session:
       user: "User"
       account: "Account"
@@ -72,7 +85,9 @@ en:
   shared:
     error: "Error !"
     not_found: "Not Found !"
+    not_found_user: "Not found User"
     invalid_email_password_combination: "Invalid Email or Password !"
+    please_login: "Please Login"
   errors:
     zero: "No Errors !"
     other: "%{count} Errors"
