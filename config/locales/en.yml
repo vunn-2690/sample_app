@@ -30,7 +30,7 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  hello: "Hello"
   logo: "Simple App"
   english: "English"
   vietnamese: "Tieng Viet"
@@ -82,6 +82,14 @@ en:
       new: "Create new session"
       destroy: "Destroy Session"
       remember_me: "Remember me on this computer"
+    mail:
+      activation: "Activation account"
+      activate: "Activate"
+      activated: "Activated Successfully"
+      invalid_activated: "Invalid activation link"
+      click : "Welcome to the Sample App! Click on the link below to activate your account:"
+      please_check_mail: "Please check your email to activate your account."
+      unactivated: "Account not activated. Check your email for the activation link."
   shared:
     error: "Error !"
     not_found: "Not Found !"
