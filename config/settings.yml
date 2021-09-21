@@ -1,10 +1,16 @@
 length:
   max_255: 255
+  max_140: 140
   min_10: 10
   min_6: 6
 size:
   default_80: 80
   size_50: 50
+  limit_image_500: 500
 per_page_10: 10
 expire:
   hour_2: 2
+bytes:
+  less_5: 5
+format:
+  img: %w(image/jpeg image/gif image/png)
