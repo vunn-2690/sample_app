@@ -1,6 +1,6 @@
 vi:
   logo: "App don gian"
-  hello: "Xin chao the gioi"
+  hello: "Xin chao"
   app_name: "App don gian"
   english: "English"
   vietnamese: "Tieng Viet"
@@ -51,6 +51,14 @@ vi:
       new: "Tao Session"
       destroy: "Huy Session"
       remember_me: "Luu thong tin tren may tinh nay"
+    mail:
+      activation: "Kick hoat tai khoan"
+      activate: "Kich hoat"
+      activated: "Kick hoat thanh cong"
+      invalid_activated: "Duong dan khong hop le"
+      click : "Click vao link ben duoi de kich hoat tai khoan:"
+      please_check_mail: "Vui long kiem tra email de kich hoat tai khoan"
+      unactivated: "Tai khoan chua duoc kich hoat. Vui long kiem tra email de kich hoat"
   shared:
     error: "Loi !"
     not_found: "Khong tim thay !"
