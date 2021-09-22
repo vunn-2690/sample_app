@@ -13,4 +13,4 @@ expire:
 bytes:
   less_5: 5
 format:
-  img: %w(image/jpeg image/gif image/png)
+  img: "%w(image/jpeg image/gif image/png)"

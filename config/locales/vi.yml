@@ -26,6 +26,11 @@ vi:
   create_my_account: "Dang ky !"
   the_form_contains: "Form dang ky"
   confirm: "Ban chac chu ?"
+  follow: "Theo doi"
+  unfollow: "Bo theo doi"
+  following: "Dang theo doi"
+  followers: "Nguoi theo doi"
+  view_profile: "Xem trang cua toi"
   activerecord:
     models:
       user: User
@@ -91,6 +96,7 @@ vi:
     error: "Loi !"
     not_found: "Khong tim thay !"
     not_found_user: "Khong tim thay nguoi dung"
+    not_found_relationship: "Nguoi dung chua duoc theo doi"
     invalid_email_password_combination: "Sai email hoac mat khau !"
     please_login: "Vui long dang nhap"
   errors:

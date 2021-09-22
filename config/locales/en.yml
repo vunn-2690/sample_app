@@ -58,6 +58,11 @@ en:
   create_my_account: "Create my acount !"
   the_form_contains: "The Form Contains"
   confirm: "Are you sure ?"
+  follow: "Follow"
+  unfollow: "Unfollow"
+  following: "Following"
+  followers: "Followers"
+  view_profile: "View My Profile"
   activerecord:
     models:
       user: User
@@ -89,7 +94,7 @@ en:
       forgot_password: "Forgot Password ?"
     mail:
       activation: "Activation account"
-      reset_pasword: ""Password reset""
+      reset_pasword: "Password reset"
       activate: "Activate"
       activated: "Activated Successfully"
       invalid_activated: "Invalid activation link"
@@ -123,6 +128,7 @@ en:
     error: "Error !"
     not_found: "Not Found !"
     not_found_user: "Not found User"
+    not_found_relationship: "User havent followed"
     invalid_email_password_combination: "Invalid Email or Password !"
     please_login: "Please Login"
   errors:

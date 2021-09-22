@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
   before_action :logged_in_user, except: %i(new create show)
   before_action :correct_user, only: %i(edit update)
-  before_action :load_user, except: %i(index new create)
+  before_action :load_user, except: %i(index new create following followers)
   before_action :check_admin, only: :destroy
 
   def index
@@ -51,6 +51,18 @@ class UsersController < ApplicationController
       flash[:danger] = t "users.destroy.fail"
     end
     redirect_to users_url
+  end
+
+  def following
+    @title = "Following"
+    @users = @user.following.paginate(page: params[:page])
+    render "show_follow"
+  end
+
+  def followers
+    @title = "Followers"
+    @users = @user.followers.paginate(page: params[:page])
+    render "show_follow"
   end
 
   private
