@@ -45,6 +45,7 @@ yarn-debug.log*
 .browserslistrc
 
 /test
+/storage
 
 /config/credentials.yml.enc
 /config/database.yml
